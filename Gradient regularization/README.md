@@ -6,5 +6,10 @@ The goal is to arrive at the 'flat minima' of the loss, i.e. among many local mi
 
 There are two approaches in gradient regularization: Implict and Explicit. The former usually denotes the stochastic gradient descent, which is known to minimize the gradient norm penalized loss. The latter adds the gradient norm penalty explicitly, usually by finite difference or other numerical methods. Some paper argues finite difference method is efficient and also have additional generalization effect([Gradient regularization via FDM](https://arxiv.org/abs/2210.02720)). However, in my code the penalty uses the auto differentiation of the pytorch, which is not finite difference method.
 
-<img src="./experiment results/gradient penalty lamb 0.0001.jpg">
-<img src="./experiment results/gradient penalty lamb 0.0001.jpg">
+
+
+<p align="center">
+  <img src="./experiment results/gradient penalty lamb 1e-5.jpg",align='center',width='49%'>
+  <img src="./experiment results/gradient penalty lamb 1.jpg",align='center',width='49%'>
+  MNIST classification comparison. MLP model with tanh activation, 1-layer with 512 hidden nodes, (Left) $\lambda=10^{-5}$ (Right) $\lambda=1$. 1% improved.
+</p>
