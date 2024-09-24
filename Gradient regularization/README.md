@@ -9,7 +9,7 @@ There are two approaches in gradient regularization: Implict and Explicit. The f
 
 
 <p align="center">
-  <img src="./experiment results/gradient penalty lamb 1e-05.jpg",align='center',width='49%'>
-  <img src="./experiment results/gradient penalty lamb 1.jpg",align='center',width='49%'>
+  <img src="./experiment results/gradient penalty lamb 1e-05.jpg",align='center',width='33%'>
+  <img src="./experiment results/gradient penalty lamb 1.jpg",align='center',width='33%'>
   MNIST classification comparison. MLP model with tanh activation, 1-layer with 512 hidden nodes, (Left) $\lambda=10^{-5}$ (Right) $\lambda=1$. 1% improved.
 </p>
