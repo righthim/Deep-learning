@@ -1,0 +1,1 @@
+Spam data with NN
